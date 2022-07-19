@@ -1,0 +1,26 @@
+/* USING CLASS SELECTORS */
+
+/* .container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+} */
+
+/* USING TYPE SELECTORS */
+
+/* div p {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+} */
+
+/* USING TYPE AND CLASS SELECTORS */
+
+div .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
