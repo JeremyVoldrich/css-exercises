@@ -14,17 +14,27 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; not needed*/
   padding: 8px;
 }
 
-.container-left {
+/* this worked with the exception of "align-items:center;" missing which caused the notifications box to stay too big*/
+
+/* .container-left {
   display: flex;
   gap: 16px;
 }
 
 .container-right {
   display: flex;
+  gap: 16px;
+} */
+
+
+/* this makes the code cleaner */
+.container-left, .container-right {
+  display: flex;
+  align-items: center;
   gap: 16px;
 }
 
@@ -62,6 +72,6 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: center;
+  /* align-items: center; not needed*/
   gap: 16px;
 }
