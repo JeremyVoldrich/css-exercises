@@ -57,12 +57,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-
-.input,
-.buttons {
-  align-self: center;
-}
-
 .footer {
   background-color:#eee;
 }
