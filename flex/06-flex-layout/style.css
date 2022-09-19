@@ -59,6 +59,10 @@ a {
   align-self: center;
 }
 
+button {
+  padding: 8px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
