@@ -38,7 +38,7 @@ body {
   border-radius: 4px;
   padding: 16px;
   margin: 16px;
-  flex: 1;
+  width: 300px;
 }
 
 ul {
@@ -64,5 +64,6 @@ a {
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   padding: 32px;
 }
